@@ -1,13 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        double account = 100;
-        double increase = 1000.01;
-        double total;
+        int account = 100;
+        int increase = 1002;
+        int total;
 
-        if (increase >= 1000) {
-            int intIncrease = (int) increase;
-            total = intIncrease / 100 + increase + account;
+        if (increase > 1000) {
+            total = increase / 100 + increase + account;
         } else {
             total = increase + account;
         }
